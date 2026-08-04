@@ -38,7 +38,7 @@ public:
         // to find the right column
         int left = 0, right = colLen-1;
 
-        // standard binayr search loop
+        // standard binary search loop
         while (left <= right) {
             // compute the middle column
             int middleCol = (left + right) / 2;
